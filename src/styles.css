@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5 {
+    /* height: 800px; */
+    padding-top: 50px;
+}
+
+.jumbotron {
+    padding: 100px 25px;
+}
+
+.container-fluid {
+    padding: 0px 50px
+}
+
+#myCarousel {
+    margin: 0 auto;
+    width: 50%;
+}
+
+img {
+    width: -webkit-fill-available;
+}
+
+
+/* .panel-heading {
+    background-color: tomato !important;
+    padding: 25px;
+}
+
+.panel-footer {
+    padding: 25px;
+}
+
+.panel-body {
+    height: 200px;
+}
+
+.panel {
+    text-align: center;
+}
+ */
+
+
+/* If the screen size is less than 992px, set the width of carousel to 100% */
+
+@media only screen and (max-width: 992px) {
+    #myCarousel {
+        width: 100%;
+    }
+}
