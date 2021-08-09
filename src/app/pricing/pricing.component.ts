@@ -14,14 +14,14 @@ export class PricingComponent implements OnInit {
   ngOnInit(): void {
     this.items = [
       {
-        "header": "Panel Header", "body": "Panel Body", "footer": "Panel Footer"
+        header: 'Panel Header', body: 'Panel Body', footer: 'Panel Footer'
       },
       {
-        "header": "Panel Header", "body": "Panel Body", "footer": "Panel Footer"
+        header: 'Panel Header', body: 'Panel Body', footer: 'Panel Footer'
       },
       {
-        "header": "Panel Header", "body": "Panel Body", "footer": "Panel Footer"
-      }]
+        header: 'Panel Header', body: 'Panel Body', footer: 'Panel Footer'
+      }];
   }
 
 
