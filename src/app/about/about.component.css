@@ -1,4 +1,4 @@
-.box {
+/* .box {
     display: none;
     width: 100%;
 }
@@ -12,4 +12,13 @@ a:hover+.box,
 
 .panel-group {
     width: 100%;
+}
+ */
+
+ .container-fluid {
+  padding: 60px 50px;
+}
+.logo {
+  color: #f4511e;
+  font-size: 200px;
 }

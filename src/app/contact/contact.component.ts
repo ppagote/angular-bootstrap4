@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { faChevronUp, faMapMarked, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-contact',
@@ -7,6 +8,10 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
+  chevronUpIcon = faChevronUp;
+  mapMarkedIcon = faMapMarked;
+  phoneIcon = faPhone;
+  envelopeIcon = faEnvelope;
 
   constructor() { }
 

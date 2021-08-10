@@ -1,3 +1,4 @@
-#header {
-    padding: 0px;
+.custom-jumbotron {
+  background-color: #f4511e;
+  padding: 100px 25px;
 }
